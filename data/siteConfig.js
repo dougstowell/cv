@@ -1,15 +1,14 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: 'Doug Stowell',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
+  authorName: 'Doug Stowell',
+  twitterUsername: 'douglas_stowell',
+  githubUsername: 'dougstowell',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `Developer, passionate about what I do. <br />
+    Started in 1996. <br />
+    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS and VueJS.</strong>`,
   skills: [
     {
       name: 'HTML',
@@ -17,63 +16,52 @@ module.exports = {
     },
     {
       name: 'CSS',
-      level: 60
-    },
-    {
-      name: 'Javascript',
       level: 50
     },
     {
-      name: 'NodeJs',
-      level: 40
+      name: 'JavaScript',
+      level: 80
     },
     {
-      name: 'React',
-      level: 60
+      name: 'NodeJs',
+      level: 80
+    },
+    {
+      name: 'VueJS',
+      level: 80
     },
     {
       name: 'Git',
-      level: 70
+      level: 60
     }
   ],
   jobs: [
     {
-      company: "Lendico",
+      company: "Bluesmith Information Systems",
       begin: {
-        month: 'apr',
-        year: '2018'
+        month: 'jun',
+        year: '2011'
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      occupation: "Technical Specialist",
+      description: "Senior developer and technical lead."
   
     }, {
-      company: "Anapro",
+      company: "Luminary",
       begin: {
-        month: 'dec',
-        year: '2016'
+        month: 'Sep',
+        year: '2005'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
+      duration: '6 yr',
+      occupation: "Technical Specialist",
+      description: "Development and maintenance."
     },
-    /* ... */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/douglas_stowell",
+    linkedin: "https://www.linkedin.com/in/dougstowell",
+    github: "https://github.com/dougstowell",
+    email: "doug.stowell@gmail.com"
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
@@ -85,7 +73,7 @@ module.exports = {
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Francisco Santos',
+      label: 'Doug Stowell',
       url: '/',
     }
   ]
